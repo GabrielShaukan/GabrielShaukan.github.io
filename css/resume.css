@@ -190,3 +190,17 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.gal-item{
+  overflow: hidden;
+  padding: 8px;
+}
+.gal-item .box{
+  height: 100%;
+  overflow: hidden;
+}
+.box img{
+  height: 100%;
+  width: auto;
+  object-fit:cover;
+}
